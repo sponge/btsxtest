@@ -1,14 +1,17 @@
 create w
 
+# wadinfo and version at top
 datemarker w version
-
 mergefile w wadinfo.txt 
 
+# palettes, dehacked, mapinfo, etc
 mergedir w misc
 
+# audio
 mergedir w music
 mergedir w sounds
 
+# maps
 mergewad w maps/MAP01.wad
 mergewad w maps/MAP02.wad
 mergewad w maps/MAP03.wad
@@ -41,8 +44,7 @@ mergewad w maps/MAP27.wad
 mergewad w maps/MAP28.wad
 mergewad w maps/MAP31.wad
 
-# FIXME: files in gfx/ seem to be added after files in gfx/boom but the markers arent right
-marker w \gfx
+# gfx that don't need to be inside a _START/_END marker
 mergedir w gfx
 
 # FIXME: slade seemed to output these weird VILE[1 VILE\1 FILE]1-8 frames in the wad improperly?
@@ -50,11 +52,12 @@ marker w S_START
 mergedir w sprites
 marker w S_END
 
+# merge in textures, no special ordering here
 marker w PP_START
 mergedir w textures
 marker w PP_END
 
-# FIXME: not ideal to have big ol lumps here but order matters
+# FIXME: not ideal to have big ol lumps here but order matters because of animated flats
 # FIXME: bad command MERGEWAD? bug in doomstruct
 marker w FF_START
 # mergewad w wads/flats.wad
