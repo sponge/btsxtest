@@ -1,0 +1,64 @@
+create w
+
+datemarker w __VER__
+
+mergefile w wadinfo.txt 
+
+mergedir w misc
+
+mergedir w music
+mergedir w sounds
+
+mergewad w maps/MAP01.wad
+mergewad w maps/MAP02.wad
+mergewad w maps/MAP03.wad
+mergewad w maps/MAP04.wad
+mergewad w maps/MAP05.wad
+mergewad w maps/MAP05C.wad
+mergewad w maps/MAP06.wad
+mergewad w maps/MAP07.wad
+mergewad w maps/MAP08.wad
+mergewad w maps/MAP09.wad
+mergewad w maps/MAP10.wad
+mergewad w maps/MAP11.wad
+mergewad w maps/MAP12.wad
+mergewad w maps/MAP13.wad
+mergewad w maps/MAP14.wad
+mergewad w maps/MAP15.wad
+mergewad w maps/MAP16.wad
+mergewad w maps/MAP16C.wad
+mergewad w maps/MAP17.wad
+mergewad w maps/MAP18.wad
+mergewad w maps/MAP19.wad
+mergewad w maps/MAP20.wad
+mergewad w maps/MAP21.wad
+mergewad w maps/MAP22.wad
+mergewad w maps/MAP23.wad
+mergewad w maps/MAP24.wad
+mergewad w maps/MAP25.wad
+mergewad w maps/MAP26.wad
+mergewad w maps/MAP27.wad
+mergewad w maps/MAP28.wad
+mergewad w maps/MAP31.wad
+
+# FIXME: files in gfx/ seem to be added after files in gfx/boom but the markers arent right
+marker w _gfx
+mergedir w gfx
+
+# FIXME: slade seemed to output these weird VILE[1 VILE\1 FILE]1-8 frames in the wad improperly?
+marker w S_START
+mergedir w sprites
+marker w S_END
+
+# FIXME: not ideal to have big ol lumps here but order matters
+marker w PP_START
+mergewad w wads/patches.wad
+marker w PP_END
+
+# FIXME: bad command MERGEWAD?
+# marker w FF_START
+# mergewad w wads/flats.wad
+# marker w FF_END
+
+finish w output.wad
+end

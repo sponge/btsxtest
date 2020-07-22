@@ -1,0 +1,145 @@
+Patch File for DeHackEd v3.0
+
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 21
+Patch format = 6
+
+
+Thing 25 (Trooper NoAmmo)
+Initial frame = 174
+Hit points = 20
+First moving frame = 176
+Alert sound = 36
+Attack sound = 1
+Injury frame = 187
+Pain chance = 200
+Pain sound = 27
+Far attack frame = 184
+Death frame = 189
+Exploding frame = 194
+Death sound = 59
+Speed = 8
+Width = 1310720
+Height = 3670016
+Mass = 100
+Action sound = 75
+Bits = 4194310
+Respawn frame = 203
+
+Thing 26 (DEAD_BRAINS)
+Hit points = 1
+Injury frame = 778
+Pain sound = 0
+Death frame = 782
+Death sound = 0
+
+Thing 109 (One-legged body 2)
+Height = 5505024
+
+Thing 116 (DEADSPLOSION)
+Initial frame = 781
+Hit points = 1
+Death frame = 887
+Bits = 6
+
+Thing 129 (Hanging body 1)
+Bits = 768
+
+Thing 130 (Hanging body 2)
+Bits = 768
+
+Thing 131 (Hanging body 3)
+Bits = 768
+
+Thing 132 (Hanging body 4)
+Bits = 768
+
+Thing 133 (Hanging body 5)
+Bits = 768
+
+Thing 134 (Hanging body 6)
+Bits = 768
+
+Thing 135 (Pool of blood 1)
+Bits = 0
+
+Thing 136 (Pool of blood 2)
+Bits = 0
+
+Thing 137 (Brain)
+Bits = 0
+
+Frame 778
+Sprite number = 1
+Sprite subnumber = 0
+
+Frame 779
+Duration = 1
+Next frame = 0
+Sprite number = 1
+Sprite subnumber = 0
+
+Frame 780
+Duration = 1
+Next frame = 0
+Sprite number = 1
+Sprite subnumber = 0
+
+Frame 781
+Duration = -1
+Next frame = 0
+Sprite number = 1
+Sprite subnumber = 0
+
+Frame 782
+Duration = 1
+Sprite number = 1
+Sprite subnumber = 0
+
+Frame 783
+Sprite number = 1
+Sprite subnumber = 0
+
+Frame 887
+Duration = 1
+Next frame = 779
+Sprite number = 1
+Sprite subnumber = 0
+
+Pointer 427 (Frame 779)
+Codep Frame = 127
+
+[STRINGS]
+HUSTR_1 = E2M01: Shadow Port
+HUSTR_2 = E2M02: Underwater Explosions
+HUSTR_3 = E2M03: Wings of Thorn
+HUSTR_4 = E2M04: Dirty Water
+HUSTR_5 = E2M05: Tower in the Fountain of Sparks I
+HUSTR_6 = E2M06: Useless Inventions
+HUSTR_7 = E2M07: Shrine to the Dynamic Years (Athens Time Change Riots)
+HUSTR_8 = E2M08: A Blue Shadow
+HUSTR_9 = E2M09: Adverse Wind
+HUSTR_10 = E2M10: Eureka Signs
+HUSTR_11 = E2M11: Tower in the Fountain of Sparks II
+HUSTR_12 = E2M12: Demons Are Real
+HUSTR_13 = E2M13: Nation Gone Dry
+HUSTR_14 = E2M14: Shocker in Gloomtown
+HUSTR_15 = E2M15: The Theory of Broken Circles
+HUSTR_16 = E2M16: Tower in the Fountain of Sparks III
+HUSTR_17 = E2M17: Steeple of Knives
+HUSTR_18 = E2M18: Optional Bases Opposed
+HUSTR_19 = E2M19: Unbaited Vicar of Scorched Earth
+HUSTR_20 = E2M20: Speedtraps for the Bee Kingdom
+HUSTR_21 = E2M21: Bulldog Skin
+HUSTR_22 = E2M22: Bite
+HUSTR_23 = E2M23: Tower in the Fountain of Sparks IV
+HUSTR_24 = E2M24: Perhaps Now the Vultures
+HUSTR_25 = E2M25: Unstable Journey
+HUSTR_26 = E2M26: Beneath a Festering Moon
+HUSTR_31 = E2M31: Fireking Says No Cheating
+C1TEXT = THE DARK COLONY OF SATURN X REMAINS -\nAN ERRATIC BACKWATER CONSTELLATION OF\nCRUMBLING RUINS AND VANISHING TECHNOLOGY.\nYET HERE IN THE COLD AND FILTHY CHASM,\nWHERE LIGHT-REVEALING HOLY GRAILS STILL\nWAR WITH THE GOD OF SHADOWS, A HIDDEN\nTOWER IS SEALED BENEATH A STILL AND\nFESTERING MOON. THE STUDDED CROWN ON A\nDYING PLANET. THE THIEF OF SOULS.  \n\nTHIS GAME WE PLAY. I DON'T KNOW IF IT'S\nA MIRACLE OR A CURSE.
+C2TEXT = I HAD ALMOST FORGOTTEN THE MALICE, BUT\nIT HAD NOT FORGOTTEN ME. WHAT IS THIS\nCONTRAPTION?\nTHE FOG OF NIGHTMARE DISSIPATES TO REVEAL\nA HORRIBLE REALITY, WHERE STREAKS OF\nMOCKING LIGHT IMPALE THE SKY, AND BROKEN\nCITIES SWOLLEN WITH THE CRAWL OF EVIL LURK.\nTHE DEMONS ARE REAL NOW. THEY HAD MOVED\nAROUND AS VESTIGES UNDER THE VEIL OF\nSHADOW, BUT NOW THEY WILL SCRATCH AND\nCLAW AND HATE UNTIL THE END, WITH ME AS\nTHEIR WITNESS. IT'S TIME TO DRAW A LINE.\n\nAHEAD IS ANOTHER PATH - A LONELY MILE -\nTAKING ME DEEPER INTO THE LABYRINTH OF THE\nTWISTED MECHANISM. THE FOUNTAIN OF FIRE\nLIES DORMANT, WAITING FOR THE SPARK.
+C3TEXT = IT IS AN INCINERATION. THE PLANET IS PRIMED\nTO BURN BENEATH THE LOOM, AND THE PORTAL IS\nTHE ONLY WAY OFF IT. BUT STARING OUT FROM\nOTHERWORLDLY WINDOWS, THE TASK THAT LIES\nBEFORE ME IS NOW MORE REAL THAN DEATH, AND\nI KNOW THERE IS NO TURNING BACK.\n\nTHE WAY IS NOW OPEN. THE GHOSTS OF A\nDIFFERENT DREAM ARE WAITING.
+C5TEXT = PERHAPS YOU HAD READ IT, ONCE. WRITTEN IN\nBLOOD PASSED DOWN THROUGH AGES. BUT DEEP\nDOWN INSIDE, YOU KNOW YOU WILL BURN FOR\nTHIS...\n\nENJOY YOUR FATE, YOU SINISTER COD!
+HUSTR_27 =    

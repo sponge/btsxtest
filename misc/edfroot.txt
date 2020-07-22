@@ -1,0 +1,5 @@
+stdinclude("root.edf")
+
+gameproperties {
+	credit.background BLOOD1
+}

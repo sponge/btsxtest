@@ -1,0 +1,356 @@
+// MAPINFO for BTSX Episode 2
+ 
+defaultmap
+	par 0
+ 
+
+map MAP01 "Shadow Port"
+
+	titlepatch "CWILV00"
+	next "MAP02"
+	secretnext "MAP02"
+	sky1 "SKY2TALL" 0
+	cluster 5
+	music "D_RUNNIN"
+
+
+map MAP02 "Underwater Explosions"
+
+	titlepatch "CWILV01"
+	next "MAP03"
+	secretnext "MAP03"
+	sky1 "SKY2TALL" 0
+	cluster 5
+	music "D_STALKS"
+
+
+map MAP03 "Wings of Thorn"
+
+	titlepatch "CWILV02"
+	next "MAP04"
+	secretnext "MAP04"
+	sky1 "SKY2TALL" 0
+	cluster 5
+	music "D_COUNTD"
+
+
+map MAP04 "Dirty Water"
+
+	titlepatch "CWILV03"
+	next "MAP05C"
+	secretnext "MAP05C"
+	sky1 "SKY2TALL" 0
+	cluster 5
+	music "D_BETWEE"
+
+
+map MAP05C "Tower in the Fountain of Sparks I"
+
+	titlepatch "CWILV04"
+	next "MAP06"
+	secretnext "MAP06"
+	sky1 "SKY2TALL" 0
+	cluster 5
+	music "D_DOOM"
+
+
+map MAP06 "Useless Inventions"
+
+	titlepatch "CWILV05"
+	next "MAP07"
+	secretnext "MAP07"
+	sky1 "SKY2TALL" 0
+	cluster 5
+	music "D_THE_DA"
+
+
+map MAP07 "Shrine to the Dynamic Years (Athens Time Change Riots)"
+
+	titlepatch "CWILV06"
+	next "MAP08"
+	secretnext "MAP08"
+	sky1 "SKY2TALL" 0
+	cluster 6
+	map07special
+	music "D_SHAWN"
+
+
+map MAP08 "A Blue Shadow"
+
+	titlepatch "CWILV07"
+	next "MAP09"
+	secretnext "MAP09"
+	sky1 "SKY2TALL" 0
+	cluster 6
+	music "D_DDTBLU"
+
+
+map MAP09 "Adverse Wind"
+
+	titlepatch "CWILV08"
+	next "MAP10"
+	secretnext "MAP10"
+	sky1 "SKY2TALL" 0
+	cluster 6
+	music "D_IN_CIT"
+
+
+map MAP10 "Eureka Signs"
+
+	titlepatch "CWILV09"
+	next "MAP11"
+	secretnext "MAP11"
+	sky1 "SKY2TALL" 0
+	cluster 6
+	music "D_DEAD"
+
+
+map MAP11 "Tower in the Fountain of Sparks II"
+
+	titlepatch "CWILV10"
+	next "MAP12"
+	secretnext "MAP12"
+	sky1 "SKY2TALL" 0
+	cluster 6
+	music "D_STLKS2"
+
+
+map MAP12 "Demons Are Real"
+
+	titlepatch "CWILV11"
+	next "MAP13"
+	secretnext "MAP13"
+	sky1 "SKY2BTAL" 0
+	cluster 7
+	music "D_THEDA2"
+
+
+map MAP13 "Nation Gone Dry"
+
+	titlepatch "CWILV12"
+	next "MAP14"
+	secretnext "MAP14"
+	sky1 "SKY2BTAL" 0
+	cluster 7
+	music "D_DOOM2"
+
+
+map MAP14 "Shocker in Gloomtown"
+
+	titlepatch "CWILV13"
+	next "MAP15"
+	secretnext "MAP15"
+	sky1 "SKY2BTAL" 0
+	cluster 7
+	music "D_DDTBL2"
+
+
+map MAP15 "The Theory of Broken Circles"
+
+	titlepatch "CWILV14"
+	next "MAP16C"
+	secretnext "MAP31"
+	sky1 "SKY2BTAL" 0
+	cluster 7
+	music "D_RUNNI2"
+
+
+map MAP16C "Tower in the Fountain of Sparks III"
+
+	titlepatch "CWILV15"
+	next "MAP17"
+	secretnext "MAP17"
+	sky1 "SKY2BTAL" 0
+	cluster 7
+	music "D_DEAD2"
+
+
+map MAP17 "Steeple of Knives"
+
+	titlepatch "CWILV16"
+	next "MAP18"
+	secretnext "MAP18"
+	sky1 "SKY2BTAL" 0
+	cluster 7
+	music "D_STLKS3"
+
+
+map MAP18 "Optional Bases Opposed"
+
+	titlepatch "CWILV17"
+	next "MAP19"
+	secretnext "MAP19"
+	sky1 "SKY2BTAL" 0
+	cluster 7
+	music "D_ROMERO"
+
+
+map MAP19 "Unbaited Vicar of Scorched Earth"
+
+	titlepatch "CWILV18"
+	next "MAP20"
+	secretnext "MAP20"
+	sky1 "SKY2BTAL" 0
+	cluster 7
+	music "D_SHAWN2"
+
+
+map MAP20 "Speedtraps for the Bee Kingdom"
+
+	titlepatch "CWILV19"
+	next "MAP21"
+	secretnext "MAP21"
+	sky1 "SKY2BTAL" 0
+	cluster 7
+	music "D_MESSAG"
+
+
+map MAP21 "Bulldog Skin"
+
+	titlepatch "CWILV20"
+	next "MAP22"
+	secretnext "MAP22"
+	sky1 "SKY2CTAL" 0
+	cluster 8
+	music "D_COUNT2"
+
+
+map MAP22 "Bite"
+
+	titlepatch "CWILV21"
+	next "MAP23"
+	secretnext "MAP23"
+	sky1 "SKY2CTAL" 0
+	cluster 8
+	music "D_DDTBL3"
+
+
+map MAP23 "Tower in the Fountain of Sparks IV"
+
+	titlepatch "CWILV22"
+	next "MAP24"
+	secretnext "MAP24"
+	sky1 "SKY2CTAL" 0
+	cluster 8
+	music "D_AMPIE"
+
+
+map MAP24 "Perhaps Now the Vultures"
+
+	titlepatch "CWILV23"
+	next "MAP25"
+	secretnext "MAP25"
+	sky1 "SKY2CTAL" 0
+	cluster 8
+	music "D_THEDA3"
+
+
+map MAP25 "Unstable Journey"
+
+	titlepatch "CWILV24"
+	next "MAP26"
+	secretnext "MAP26"
+	sky1 "SKY2CTAL" 0
+	cluster 8
+	music "D_ADRIAN"
+
+
+map MAP26 "Beneath a Festering Moon"
+
+	titlepatch "CWILV25"
+	next "MAP27"
+	secretnext "MAP27"
+	sky1 "SKY2CTAL" 0
+	cluster 8
+	music "D_MESSG2"
+
+
+map MAP27 " "
+
+	titlepatch "CWILV26"
+	sky1 "SKY2CTAL" 0
+	cluster 88
+	music "D_ROMER2"
+
+
+map MAP31 "Fireking Says No Cheating"
+
+	titlepatch "CWILV30"
+	next "MAP16C"
+	secretnext "MAP16C"
+	sky1 "SKY2CTAL" 0
+	cluster 9
+	music "D_EVIL"
+
+
+clusterdef 5
+
+	flat "$BGFLAT06"
+	music "D_READ_M"
+	exittext "THE DARK COLONY OF SATURN X REMAINS -
+AN ERRATIC BACKWATER CONSTELLATION OF
+CRUMBLING RUINS AND VANISHING TECHNOLOGY.
+YET HERE IN THE COLD AND FILTHY CHASM,
+WHERE LIGHT-REVEALING HOLY GRAILS STILL
+WAR WITH THE GOD OF SHADOWS, A HIDDEN
+TOWER IS SEALED BENEATH A STILL AND
+FESTERING MOON. THE STUDDED CROWN ON A
+DYING PLANET. THE THIEF OF SOULS.  
+
+THIS GAME WE PLAY. I DON'T KNOW IF IT'S
+A MIRACLE OR A CURSE."
+
+
+clusterdef 6
+
+	flat "$BGFLAT11"
+	music "D_READ_M"
+	exittext "I HAD ALMOST FORGOTTEN THE MALICE, BUT
+IT HAD NOT FORGOTTEN ME. WHAT IS THIS
+CONTRAPTION?
+THE FOG OF NIGHTMARE DISSIPATES TO REVEAL
+A HORRIBLE REALITY, WHERE STREAKS OF
+MOCKING LIGHT IMPALE THE SKY, AND BROKEN
+CITIES SWOLLEN WITH THE CRAWL OF EVIL LURK.
+THE DEMONS ARE REAL NOW. THEY HAD MOVED
+AROUND AS VESTIGES UNDER THE VEIL OF
+SHADOW, BUT NOW THEY WILL SCRATCH AND
+CLAW AND HATE UNTIL THE END, WITH ME AS
+THEIR WITNESS. IT'S TIME TO DRAW A LINE.
+
+AHEAD IS ANOTHER PATH - A LONELY MILE -
+TAKING ME DEEPER INTO THE LABYRINTH OF THE
+TWISTED MECHANISM. THE FOUNTAIN OF FIRE
+LIES DORMANT, WAITING FOR THE SPARK."
+
+
+clusterdef 7
+
+	flat "$BGFLAT20"
+	music "D_READ_M"
+	exittext "IT IS AN INCINERATION. THE PLANET IS PRIMED
+TO BURN BENEATH THE LOOM, AND THE PORTAL IS
+THE ONLY WAY OFF IT. BUT STARING OUT FROM
+OTHERWORLDLY WINDOWS, THE TASK THAT LIES
+BEFORE ME IS NOW MORE REAL THAN DEATH, AND
+I KNOW THERE IS NO TURNING BACK.
+
+THE WAY IS NOW OPEN. THE GHOSTS OF A
+DIFFERENT DREAM ARE WAITING."
+
+
+clusterdef 88
+
+	hub
+
+
+clusterdef 9
+
+	flat "$BGFLAT15"
+	music "D_READ_M"
+	exittext "PERHAPS YOU HAD READ IT, ONCE. WRITTEN IN
+BLOOD PASSED DOWN THROUGH AGES. BUT DEEP
+DOWN INSIDE, YOU KNOW YOU WILL BURN FOR
+THIS...
+
+ENJOY YOUR FATE, YOU SINISTER COD!"

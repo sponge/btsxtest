@@ -1,0 +1,3 @@
+IWAD = "DOOM2.WAD"
+STARTUPTITLE = "Back to Saturn X Episode 2: Tower in the Fountain of Sparks"
+STARTUPCOLORS = "FF7F1B","4D2300"

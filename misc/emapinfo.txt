@@ -1,0 +1,147 @@
+[MAP01]
+	levelname = E2M01: Shadow Port
+	creator = Joshy & Esselfortium & Dew
+	skyname = SKY2TALL
+	
+[MAP02]
+	levelname = E2M02: Underwater Explosions
+	creator = Tango
+	skyname = SKY2TALL
+	
+[MAP03]
+	levelname = E2M03: Wings of Thorn
+	creator = Brad Spencer & Xaser
+	skyname = SKY2TALL
+	
+[MAP04]
+	levelname = E2M04: Dirty Water
+	creator = Use3d
+	skyname = SKY2TALL
+	nextlevel = MAP05C
+	
+[MAP05C]
+	levelname = E2M05: Tower in the Fountain of Sparks I
+	creator = Xaser
+	skyname = SKY2TALL
+	levelpic = CWILV04
+	music = D_DOOM
+	nextlevel = MAP06
+	
+[MAP06]
+	levelname = E2M06: Useless Inventions
+	creator = Vader
+	skyname = SKY2TALL
+	
+[MAP07]
+	levelname = E2M07: Shrine To The Dynamic Years
+	creator = The Green Herring
+	skyname = SKY2TALL
+	
+[MAP08]
+	levelname = E2M08: A Blue Shadow
+	creator = Matt Tropiano
+	skyname = SKY2TALL
+	
+[MAP09]
+	levelname = E2M09: Adverse Wind
+	creator = DeathevokatioN
+	skyname = SKY2TALL
+	
+[MAP10]
+	levelname = E2M10: Eureka Signs
+	creator = Esselfortium
+	skyname = SKY2TALL
+	
+[MAP11]
+	levelname = E2M11: Tower in the Fountain of Sparks II
+	creator = Xaser
+	skyname = SKY2TALL
+	
+[MAP12]
+	levelname = E2M12: Demons Are Real
+	creator = Skillsaw
+	skyname = SKY2BTAL
+	
+[MAP13]
+	levelname = E2M13: Nation Gone Dry
+	creator = Jimmy & Tarnsman
+	skyname = SKY2BTAL
+	
+[MAP14]
+	levelname = E2M14: Shocker in Gloomtown
+	creator = Mechadon & Vader
+	skyname = SKY2BTAL
+	
+[MAP15]
+	levelname = E2M15: The Theory of Broken Circles
+	creator = Vader
+	skyname = SKY2BTAL
+	nextlevel = MAP16C
+	nextsecret = MAP31
+	
+[MAP16C]
+	levelname = E2M16: Tower in the Fountain of Sparks III
+	creator = Xaser
+	skyname = SKY2BTAL
+	levelpic = CWILV15
+	music = D_DEAD2
+	nextlevel = MAP17
+	
+[MAP17]
+	levelname = E2M17: Steeple of Knives
+	creator = Xaser
+	skyname = SKY2BTAL
+	
+[MAP18]
+	levelname = E2M18: Optional Bases Opposed
+	creator = Skillsaw
+	skyname = SKY2BTAL
+	
+[MAP19]
+	levelname = E2M19: Unbaited Vicar of Scorched Earth
+	creator = Tarnsman
+	skyname = SKY2BTAL
+	
+[MAP20]
+	levelname = E2M20: Speedtraps for the Bee Kingdom
+	creator = Tarnsman & Esselfortium
+	skyname = SKY2BTAL
+	
+[MAP21]
+	levelname = E2M21: Bulldog Skin
+	creator = Khorus & Esselfortium
+	skyname = SKY2CTAL
+	
+[MAP22]
+	levelname = E2M22: Bite
+	creator = RottKing
+	skyname = SKY2CTAL
+	
+[MAP23]
+	levelname = E2M23: Tower in the Fountain of Sparks IV
+	creator = Xaser
+	skyname = SKY2CTAL
+	
+[MAP24]
+	levelname = E2M24: Perhaps Now The Vultures
+	creator = Tarnsman
+	skyname = SKY2CTAL
+	
+[MAP25]
+	levelname = E2M25: Unstable Journey
+	creator = Mechadon
+	skyname = SKY2CTAL
+	
+[MAP26]
+	levelname = E2M26: Beneath a Festering Moon
+	creator = Xaser
+	skyname = SKY2CTAL
+	
+[MAP27]
+	levelname = 
+	skyname = SKY2CTAL
+	
+[MAP31]
+	levelname = E2M31: Fireking Says No Cheating
+	creator = Joshy & Esselfortium & Dew
+	skyname = SKY2CTAL
