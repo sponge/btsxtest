@@ -1,6 +1,6 @@
 create w
 
-datemarker w __VER__
+datemarker w version
 
 mergefile w wadinfo.txt 
 
@@ -52,13 +52,13 @@ marker w S_END
 
 # FIXME: not ideal to have big ol lumps here but order matters
 marker w PP_START
-mergewad w wads/patches.wad
+mergedir w textures
 marker w PP_END
 
 # FIXME: bad command MERGEWAD?
-# marker w FF_START
+marker w FF_START
 # mergewad w wads/flats.wad
-# marker w FF_END
+marker w FF_END
 
 finish w output.wad
 end
