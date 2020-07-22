@@ -1,3 +1,4 @@
+test
 ===========================================================================
 Advanced engine needed  : Doom2.exe or compatible
 Primary purpose         : Single play
