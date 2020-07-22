@@ -16,7 +16,9 @@ jobs:
           java-version: '8'
           java-package: jre
           architecture: x64
-      - run: call build.bat
+      - name: Compile WAD file
+        shell: cmd
+        run: call build.bat
       - name: Upload final WAD file
         uses: actions/upload-artifact@v2
         with:
