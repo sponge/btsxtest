@@ -23,4 +23,6 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: output
-          path: /*.wad
+          path: |
+            output.wad
+            output2.wad
