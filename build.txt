@@ -53,9 +53,9 @@ mergedir w sprites
 mergewad w wads/vile.wad
 marker w S_END
 
-# merge in textures, no special ordering here
+# merge in patches, no special ordering here
 marker w PP_START
-mergedir w textures
+mergedir w patches
 marker w PP_END
 
 # this is not ideal but flat ordering matters for animated flats, so this is a big blob for now
