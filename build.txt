@@ -47,9 +47,10 @@ mergewad w maps/MAP31.wad
 # gfx that don't need to be inside a _START/_END marker
 mergedir w gfx
 
-# FIXME: slade seemed to output these weird VILE[1 VILE\1 FILE]1-8 frames in the wad improperly?
 marker w S_START
 mergedir w sprites
+# NOTE: vile has \ in its frames so just pack these into a wad to avoid this issue
+mergewad w wads/vile.wad
 marker w S_END
 
 # merge in textures, no special ordering here
@@ -57,11 +58,8 @@ marker w PP_START
 mergedir w textures
 marker w PP_END
 
-# FIXME: not ideal to have big ol lumps here but order matters because of animated flats
-# FIXME: bad command MERGEWAD? bug in doomstruct
-marker w FF_START
-# mergewad w wads/flats.wad
-marker w FF_END
+# this is not ideal but flat ordering matters for animated flats, so this is a big blob for now
+mergewad w wads/flats.wad
 
 finish w output.wad
 end
