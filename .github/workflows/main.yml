@@ -26,3 +26,4 @@ jobs:
           path: |
             output.wad
             output2.wad
+            wadinfo.txt

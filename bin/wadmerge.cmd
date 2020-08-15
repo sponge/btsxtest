@@ -3,8 +3,8 @@
 REM ============================[ VARIABLES ]================================
 SETLOCAL
 SET JAVAEXE=
-SET JAVAOPTS=
-SET JAVAJAR=jar\doomtools-2020.05.30.001736042.jar
+SET JAVAOPTS=-Xms64M -Xmx784M
+SET JAVAJAR=jar\doomtools-2020.07.26.030547434.jar
 SET MAINCLASS=net.mtrop.doom.tools.WadMergeMain
 REM =========================================================================
 
@@ -41,7 +41,7 @@ goto _end
 REM =========================
 
 :_calljava
-"%JAVAEXE%" -Xms512M -Xmx1024M -cp "%~dp0\%JAVAJAR%" %JAVAOPTS% %MAINCLASS% %*
+"%JAVAEXE%" -cp "%~dp0\%JAVAJAR%" %JAVAOPTS% %MAINCLASS% %*
 
 :_end
 ENDLOCAL
